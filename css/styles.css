@@ -4,14 +4,45 @@ student number: 8979562
 */
 body{
     font: 13px georgia;
-    background-color: hsla(77, 99%, 44%, 0.9);
+    background-color: hsla(78, 10%, 47%, 0.9);
     width: 60vw;
     height: 70vh;
 }
 #list{
-    color: #957;
+    color: rgb(240, 0, 120);
     font-size: 0.7em;
 }
-
-
-
+header{
+    background-color: hsl(128, 100%, 50%)
+}
+main{
+    float: left;
+    width: 50%;
+    background-color: hsl(170, 100%, 50%);
+}
+aside{
+    float: right;
+    width: 25%;
+    background-color: hsl(56, 100%, 50%);
+    
+}
+footer{
+    clear: both;
+    background-color: hsl(300, 100%, 76%);
+}
+.structural{
+    padding: 30px; ;
+    border: 2px solid black;
+    margin: 20px; ;
+}
+#objectives-paragraph{
+color:rgb(255, 12, 12) ;
+}
+#main-objectives-paragraph{
+    color: rgb(0, 26, 255);
+}
+aside a:hover{
+    color: #945;
+footer p{
+    font-size: x-small;
+}
